@@ -52,7 +52,11 @@ This package requires:
 - **UniTask** (automatically installed via package.json)
 - **Unity Addressables** (optional, required for Addressables operations)
 
-If you don't use Addressables, you can safely ignore the Addressables-related compilation errors, or exclude the `Runtime/Operations/Addressables/` folder from your build.
+**Addressables Support:**
+- The Addressables operations are wrapped in `#if UNITY_ADDRESSABLES` directives
+- If you don't have Addressables installed, these operations will be excluded from compilation
+- To use Addressables operations, install the Addressables package via Package Manager
+- No compilation errors will occur if Addressables is not installed
 
 - **Unity 2020.3** or later
 - **UniTask 2.3.3** or later (automatically installed via Package Manager)
