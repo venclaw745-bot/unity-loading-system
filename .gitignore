@@ -47,9 +47,6 @@ Thumbs.db
 package-lock.json
 node_modules/
 
-# Samples (Unity will handle these)
-Samples.meta
-
 # Workspace documentation files (not part of Unity package)
 PROJECT-INDEX.md
 PROJECT-INDEX.md.meta
