@@ -1,16 +1,16 @@
 {
-    "name": "com.ven.loadingprogress.editor",
+    "name": "com.ven.loadingprogress.sample",
+    "rootNamespace": "",
     "references": [
-        "com.ven.loadingprogress"
+        "GUID:7d47de55caf04b8a9c76c82b7890de98",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
-    "autoReferenced": false,
+    "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],
     "noEngineReferences": false

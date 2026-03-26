@@ -1,7 +1,6 @@
 using System.Threading;
 using Cysharp.Threading.Tasks;
 using LoadingSystem;
-using LoadingSystem.Operations;
 using UnityEngine;
 
 namespace LoadingSystem.Samples

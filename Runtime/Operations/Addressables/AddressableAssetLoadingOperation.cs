@@ -8,7 +8,7 @@ using Cysharp.Threading.Tasks;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 
-namespace LoadingSystem.Operations
+namespace LoadingSystem
 {
     public sealed class AddressableAssetLoadingOperation<T> : LoadingOperationBase, ILoadingOperation<T>, IDisposable
     {

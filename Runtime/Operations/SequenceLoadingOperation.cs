@@ -7,7 +7,7 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace LoadingSystem.Operations
+namespace LoadingSystem
 {
     public sealed class SequenceLoadingOperation : ILoadingOperation
     {

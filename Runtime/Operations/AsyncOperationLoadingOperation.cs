@@ -6,7 +6,7 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace LoadingSystem.Operations
+namespace LoadingSystem
 {
     /// <summary>
     /// Wraps any <see cref="UnityEngine.AsyncOperation"/> as a loading operation.

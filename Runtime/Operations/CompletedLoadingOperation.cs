@@ -4,7 +4,7 @@
 using System.Threading;
 using Cysharp.Threading.Tasks;
 
-namespace LoadingSystem.Operations
+namespace LoadingSystem
 {
     /// <summary>
     /// An already-completed no-op. Useful for conditional pipeline building.

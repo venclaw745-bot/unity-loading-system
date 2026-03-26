@@ -5,7 +5,7 @@ using System.Threading;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace LoadingSystem.Operations
+namespace LoadingSystem
 {
     /// <summary>
     /// Simulates loading over a fixed duration.

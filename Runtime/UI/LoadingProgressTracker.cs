@@ -4,7 +4,7 @@
 using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
-using LoadingSystem.Operations;
+using LoadingSystem;
 using UnityEngine;
 using UnityEngine.Events;
 

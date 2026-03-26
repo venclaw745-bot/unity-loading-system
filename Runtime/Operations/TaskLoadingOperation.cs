@@ -5,7 +5,7 @@ using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
 
-namespace LoadingSystem.Operations
+namespace LoadingSystem
 {
     /// <summary>
     /// Wraps an arbitrary <see cref="UniTask"/> as a binary (0 or 1) loading operation.

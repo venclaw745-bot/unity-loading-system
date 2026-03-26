@@ -6,7 +6,7 @@ using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace LoadingSystem.Operations
+namespace LoadingSystem
 {
     public sealed class SceneLoadingOperation : LoadingOperationBase
     {
