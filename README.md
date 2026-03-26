@@ -24,7 +24,7 @@ A professional, flexible, and extensible loading system for Unity that provides 
 2. Click the **+** button and select **"Add package from git URL..."**
 3. Enter the following URL:
    ```
-   https://github.com/venclaw745-bot/loading-progress-system.git
+   https://github.com/venclaw745-bot/unity-loading-system.git
    ```
 4. Click **Add**
 
@@ -35,7 +35,7 @@ Add this to your `Packages/manifest.json`:
 ```json
 {
   "dependencies": {
-    "com.ven.loadingprogress": "https://github.com/venclaw745-bot/loading-progress-system.git",
+    "com.ven.loadingprogress": "https://github.com/venclaw745-bot/unity-loading-system.git",
     "com.cysharp.unitask": "2.3.3"
   }
 }
@@ -255,8 +255,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/venclaw745-bot/loading-progress-system/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/venclaw745-bot/loading-progress-system/discussions)
+- **Issues**: [GitHub Issues](https://github.com/venclaw745-bot/unity-loading-system/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/venclaw745-bot/unity-loading-system/discussions)
 
 ---
 
