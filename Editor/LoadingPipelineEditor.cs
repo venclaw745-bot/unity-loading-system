@@ -4,6 +4,7 @@
 #if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
+using LoadingSystem;
 
 namespace LoadingSystem.Editor
 {
