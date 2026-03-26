@@ -21,12 +21,5 @@
     "name": "Ven",
     "email": "",
     "url": ""
-  },
-  "samples": [
-    {
-      "displayName": "Basic Usage Example",
-      "description": "Simple example showing how to create and execute loading pipelines",
-      "path": "Samples/BasicExample"
-    }
-  ]
+  }
 }
