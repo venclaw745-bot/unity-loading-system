@@ -3,6 +3,9 @@
     "references": [
         "UniTask"
     ],
+    "optionalUnityReferences": [
+        "Addressables"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

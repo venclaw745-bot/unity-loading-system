@@ -48,6 +48,12 @@ Add this to your `Packages/manifest.json`:
 
 ### Dependencies
 
+This package requires:
+- **UniTask** (automatically installed via package.json)
+- **Unity Addressables** (optional, required for Addressables operations)
+
+If you don't use Addressables, you can safely ignore the Addressables-related compilation errors, or exclude the `Runtime/Operations/Addressables/` folder from your build.
+
 - **Unity 2020.3** or later
 - **UniTask 2.3.3** or later (automatically installed via Package Manager)
 - **Addressables** (optional, for Addressable operations)
