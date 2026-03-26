@@ -28,6 +28,11 @@ A professional, flexible, and extensible loading system for Unity that provides 
    ```
 4. Click **Add**
 
+**Note:** If you previously imported the package and got ".meta file" errors, you may need to:
+1. Remove the package from your project
+2. Clear the Unity Package Manager cache (or wait a few minutes)
+3. Re-add the package using the URL above
+
 ### Via manifest.json (Recommended for Teams)
 
 Add this to your `Packages/manifest.json`:
