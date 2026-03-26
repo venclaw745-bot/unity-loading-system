@@ -1,0 +1,51 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# MemoryCaptures
+MemoryCaptures/
+
+# Asset meta files should not be ignored
+# !*/**/*.meta
+
+# Unity Asset Store
+[Uu]nityPackageManager/
+
+# Visual Studio
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# OS
+.DS_Store*
+._*
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Package Manager
+package-lock.json
+node_modules/
+
+# Samples (Unity will handle these)
+Samples.meta

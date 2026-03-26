@@ -1,0 +1,31 @@
+{
+  "name": "com.ven.loadingprogress",
+  "version": "1.0.0",
+  "displayName": "Advanced Loading Progress Tracking System",
+  "description": "A flexible, extensible loading system for Unity with progress tracking, parallel execution, and weighted progress calculation.",
+  "unity": "2020.3",
+  "dependencies": {
+    "com.cysharp.unitask": "2.3.3"
+  },
+  "keywords": [
+    "loading",
+    "progress",
+    "async",
+    "pipeline",
+    "addressables",
+    "scene",
+    "resources"
+  ],
+  "author": {
+    "name": "Ven",
+    "email": "",
+    "url": ""
+  },
+  "samples": [
+    {
+      "displayName": "Basic Usage Example",
+      "description": "Simple example showing how to create and execute loading pipelines",
+      "path": "Samples~/BasicExample"
+    }
+  ]
+}
