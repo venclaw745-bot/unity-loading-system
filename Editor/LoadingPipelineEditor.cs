@@ -16,7 +16,7 @@ namespace LoadingSystem.Editor
     {
         private Vector2 _scrollPosition;
         private string _pipelineJson = "";
-        private LoadingPipeline _currentPipeline;
+        private LoadingSystem.LoadingPipeline _currentPipeline;
 
         [MenuItem("Tools/Loading System/Pipeline Visualizer")]
         public static void ShowWindow()
@@ -34,7 +34,7 @@ namespace LoadingSystem.Editor
             EditorGUILayout.LabelField("Create Demo Pipeline", EditorStyles.boldLabel);
             if (GUILayout.Button("Generate Demo Pipeline"))
             {
-                _currentPipeline = LoadingProgressTracker.CreateDemoPipeline();
+                _currentPipeline = LoadingSystem.LoadingProgressTracker.CreateDemoPipeline();
                 _pipelineJson = JsonUtility.ToJson(_currentPipeline, true);
             }
 

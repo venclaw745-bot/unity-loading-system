@@ -134,13 +134,13 @@ namespace LoadingSystem
         {
             var pipeline = new LoadingPipeline();
             
-            // Simulate some loading steps
-            pipeline.Add(new DelayOperation(1f), 0.2f)  // Initial delay
+            // Simulate some loading steps using SimulatedLoadingOperation
+            pipeline.Add(new SimulatedLoadingOperation(1f), 0.2f)  // Initial delay
                    .Combine(
-                       new DelayOperation(2f),
-                       new DelayOperation(1.5f)
+                       new SimulatedLoadingOperation(2f),
+                       new SimulatedLoadingOperation(1.5f)
                    )  // Parallel operations
-                   .Add(new DelayOperation(0.5f), 0.3f);  // Final step
+                   .Add(new SimulatedLoadingOperation(0.5f), 0.3f);  // Final step
 
             return pipeline;
         }
