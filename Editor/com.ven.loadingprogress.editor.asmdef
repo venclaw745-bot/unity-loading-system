@@ -1,0 +1,17 @@
+{
+    "name": "com.ven.loadingprogress.editor",
+    "references": [
+        "com.ven.loadingprogress"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
