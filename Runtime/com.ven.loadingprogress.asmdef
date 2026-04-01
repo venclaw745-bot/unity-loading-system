@@ -1,6 +1,6 @@
 {
-    "name": "com.ven.loadingprogress",
-    "rootNamespace": "",
+    "name": "LoadingSystem",
+    "rootNamespace": "LoadingSystem",
     "references": [
         "UniTask",
         "UnityEngine.TestRunner",
