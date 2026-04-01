@@ -1,6 +1,6 @@
 {
   "name": "com.ven.loadingprogress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Advanced Loading Progress Tracking System",
   "description": "A flexible, extensible loading system for Unity with progress tracking, parallel execution, and weighted progress calculation.",
   "unity": "2020.3",
